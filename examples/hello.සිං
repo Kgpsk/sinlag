@@ -1,0 +1,2 @@
+වෙනස්වන name = "Sinhala"
+පෙන්වන්න("Hello " + name)

@@ -7,7 +7,7 @@
 
 **මෙය මගේ සිහිනයයි.**
 
-මම **KGPS Kushan Sameera**, වෘත්තියෙන් CCNA ශිෂ්‍යයෙක් සහ ස්වයං අධ්‍යාපනයෙන් දැනුම පෝෂණය කරගනු ලබයී. 
+මම **KGPS Kushan Sameera**, වෘත්තියෙන් CCNA ශිෂ්‍යයෙක් සහ ස්වයං අධ්‍යාපනයෙන් දැනුම පෝෂණය කරගනු ලබයි. 
 මෙම ව්‍යාපෘතිය මගේ හිතේ තිබූ සිහිනයක් - **සිංහලෙන්ම කේත ලිවිය හැකි භාෂාවක්** නිර්මාණය කිරීම.
 
 මෙය මගේ රට වන **ශ්‍රී ලංකාවේ** මිනිසුන් වෙනුවෙන්. 
@@ -18,7 +18,7 @@
 
 ---
 
-**This is my midnight dream.**
+**This is my dream.**
 
 I am **KGPS Kushan Sameera**, a CCNA student and self-educated learner.
 This project is a dream I had - **a language where you can write code in pure Sinhala**.
@@ -63,7 +63,7 @@ That's why I built this.
 
 ### උබුන්ටු / ඩෙබියන් (Ubuntu / Debian)
 
-
+```bash
 # Download the executable
 wget https://github.com/Kgpsk/sinlag/releases/download/v1.0/sinlag
 
@@ -73,6 +73,17 @@ chmod +x sinlag
 # Install globally
 sudo mv sinlag /usr/local/bin/
 
+ඇන්ඩ්‍රොයිඩ් ටර්මක්ස් (Android Termux)
+bash
+
+# Download the ARM64 executable
+curl -L -o sinlag https://github.com/Kgpsk/sinlag/releases/download/v1.0/sinlag_arm64
+
+# Make it executable
+chmod +x sinlag
+
+# Install
+mv sinlag $PREFIX/bin/
 
 භාවිතය | Usage
 bash
@@ -83,21 +94,92 @@ sinlag your_script.සිං
 මූලික උදාහරණය (Basic Example)
 
 Create hello.සිං:
+sinhala
+
 වෙනස්වන name = "ලෝකේ"
 පෙන්වන්න("හෙලෝ " + name)
 
-## Android (Termux)
+Run:
+bash
 
-```bash
-# Install
-curl -L -o sinlag https://github.com/Kgpsk/sinlag/releases/download/v1.0/sinlag_arm64
-chmod +x sinlag
-mv sinlag $PREFIX/bin/
-
-# Test
 sinlag hello.සිං
 
+Output:
+text
 
+හෙලෝ ලෝකේ
+
+කොන්දේසි (Conditions)
+sinhala
+
+වෙනස්වන x = 10
+
+නම් (x > 5) {
+    පෙන්වන්න("x විශාලයි")
+} එසේනම් {
+    පෙන්වන්න("x කුඩායි")
+}
+
+ලූප් (Loops)
+
+While Loop:
+sinhala
+
+වෙනස්වන i = 1
+
+තුරු (i <= 5) {
+    පෙන්වන්න(i)
+    වෙනස්වන i = i + 1
+}
+
+For Loop:
+sinhala
+
+සඳහා (i = 1, 5) {
+    පෙන්වන්න(i)
+}
+
+ගණිත ශ්‍රිත (Math Functions)
+sinhala
+
+වෙනස්වන num = -5.7
+
+පෙන්වන්න("Absolute: " + අනිවා(num))
+පෙන්වන්න("Round: " + රවුම්(num))
+පෙන්වන්න("Power 2^8: " + බලය(2, 8))
+පෙන්වන්න("Sqrt 16: " + වර්ගමූලය(16))
+
+ගොනු මෙහෙයුම් (File Operations)
+sinhala
+
+// Write to file
+ලියන්න("data.txt", "සිංහල කේතය")
+
+// Read from file
+කියවන්න("data.txt")
+
+// Delete file
+මකන්න("data.txt")
+
+පද්ධති විධාන (System Commands)
+sinhala
+
+විධානය("ls -la")
+විධානය("whoami")
+
+වෙබ් ඉල්ලීම් (Web Requests)
+sinhala
+
+වෙනස්වන ip = වෙබ්("https://api.ipify.org")
+පෙන්වන්න("Your IP: " + ip)
+
+මෙය සාදා ඇත්තේ කුමක් මතද? | What is it built with?
+
+මෙම භාෂාව Python 3 භාවිතයෙන් සාදා ඇත.
+නමුත් ඔබට එය දැන ගැනීමට අවශ්‍ය නැත - ඔබට සිංහලෙන් කේත ලිවිය හැකිය!
+
+This language is built with Python 3.
+But you don't need to know that - you can code in Sinhala!
 අනාගත සැලසුම් | Future Plans
 
     □

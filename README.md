@@ -83,13 +83,16 @@ chmod +x sinlag
 # Install
 mv sinlag $PREFIX/bin/
 
-#භාවිතය | Usage
+
+
+
+# භාවිතය | Usage
 
 sinlag your_script.සිං
 
-#උදාහරණ | Examples
+# උදාහරණ | Examples
 
-#මූලික උදාහරණය (Basic Example)
+# මූලික උදාහරණය (Basic Example)
 
 Create hello.සිං:
 වෙනස්වන name = "ලෝකේ"
@@ -105,7 +108,7 @@ text
 
 හෙලෝ ලෝකේ
 
-#ලූප් (Loops)
+# ලූප් (Loops)
 
 While Loop:
 sinhala
@@ -115,7 +118,9 @@ sinhala
 තුරු (i <= 5) {
     පෙන්වන්න(i)
     වෙනස්වන i = i + 1
-}කොන්දේසි (Conditions)
+}
+
+# කොන්දේසි (Conditions)
 sinhala
 
 වෙනස්වන x = 10
@@ -126,14 +131,14 @@ sinhala
     පෙන්වන්න("x කුඩායි")
 }
 
-#For Loop:
+# For Loop:
 sinhala
 
 සඳහා (i = 1, 5) {
     පෙන්වන්න(i)
 }
 
-#ගණිත ශ්‍රිත (Math Functions)
+# ගණිත ශ්‍රිත (Math Functions)
 sinhala
 
 වෙනස්වන num = -5.7
@@ -143,7 +148,7 @@ sinhala
 පෙන්වන්න("Power 2^8: " + බලය(2, 8))
 පෙන්වන්න("Sqrt 16: " + වර්ගමූලය(16))
 
-#ගොනු මෙහෙයුම් (File Operations)
+# ගොනු මෙහෙයුම් (File Operations)
 sinhala
 
 // Write to file
@@ -155,19 +160,19 @@ sinhala
 // Delete file
 මකන්න("data.txt")
 
-#පද්ධති විධාන (System Commands)
+# පද්ධති විධාන (System Commands)
 sinhala
 
 විධානය("ls -la")
 විධානය("whoami")
 
-#වෙබ් ඉල්ලීම් (Web Requests)
+# වෙබ් ඉල්ලීම් (Web Requests)
 sinhala
 
 වෙනස්වන ip = වෙබ්("https://api.ipify.org")
 පෙන්වන්න("Your IP: " + ip)
 
-#අනාගත සැලසුම් | Future Plans
+# අනාගත සැලසුම් | Future Plans
 
     □
 
@@ -189,7 +194,7 @@ sinhala
     Mobile App Development
     
     
-#දායක වන්න | Contribute
+# දායක වන්න | Contribute
 
 මෙය විවෘත මූලාශ්‍ර ව්‍යාපෘතියකි.
 ඔබට මෙයට දායක විය හැකිය!
@@ -203,12 +208,12 @@ sinhala
     📚 Write documentation
     
     
-#බලපත්‍රය | License
+# බලපත්‍රය | License
 
 MIT License - නිදහසේ භාවිතා කරන්න, වෙනස් කරන්න, බෙදාගන්න!
 
 
-##ස්තුතියි! | Thank You!
+## ස්තුතියි! | Thank You!
 
 *ශ්‍රී ලංකාවේ මිනිසුන්ට...
 *To the people of Sri Lanka...
@@ -216,7 +221,7 @@ MIT License - නිදහසේ භාවිතා කරන්න, වෙන�
 *අපි එකතු වෙමු! අපි සිංහලෙන් කේත ලියමු!
 *Let's unite! Let's code in Sinhala!
 
-#KGPS Kushan Sameera
+# KGPS Kushan Sameera
 kgpskushansameera@gmail.com
 CCNA Student | Self-Educated Developer
 Sri Lanka 🇱🇰

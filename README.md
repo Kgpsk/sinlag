@@ -10,10 +10,6 @@
 මම **KGPS Kushan Sameera**, වෘත්තියෙන් CCNA ශිෂ්‍යයෙක් සහ ස්වයං අධ්‍යාපනයෙන් දැනුම පෝෂණය කරගනු ලබයි. 
 මෙම ව්‍යාපෘතිය මගේ හිතේ තිබූ සිහිනයක් - **සිංහලෙන්ම කේත ලිවිය හැකි භාෂාවක්** නිර්මාණය කිරීම.
 
-මෙය මගේ රට වන **ශ්‍රී ලංකාවේ** මිනිසුන් වෙනුවෙන්. 
-මට පුළුවන් දෙයක් මගේ ජාතියට දීමට පෙර මම මිය යාමට කැමති නැත.
-ඒ නිසා මා මෙය නිර්මාණය කළෙමි. 
-
 **ඔබටත් පුළුවන්! අපි එකතු වෙමු!**
 
 ---
@@ -22,10 +18,6 @@
 
 I am **KGPS Kushan Sameera**, a CCNA student and self-educated learner.
 This project is a dream I had - **a language where you can write code in pure Sinhala**.
-
-This is for my country, **Sri Lanka**, and its people.
-I don't want to die before giving something back to my nation.
-That's why I built this.
 
 **You can too! Let's unite!**
 
@@ -71,19 +63,6 @@ chmod +x sinlag
 
 # Install globally
 sudo mv sinlag /usr/local/bin/
-
-### ඇන්ඩ්‍රොයිඩ් ටර්මක්ස් (Android Termux)
-
-# Download the ARM64 executable
-curl -L -o sinlag https://github.com/Kgpsk/sinlag/releases/download/v1.0/sinlag_arm64
-
-# Make it executable
-chmod +x sinlag
-
-# Install
-mv sinlag $PREFIX/bin/
-
-
 
 
 # භාවිතය | Usage

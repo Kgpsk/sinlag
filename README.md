@@ -83,11 +83,19 @@ sinlag your_script.සිං
 මූලික උදාහරණය (Basic Example)
 
 Create hello.සිං:
-sinhala
-
 වෙනස්වන name = "ලෝකේ"
 පෙන්වන්න("හෙලෝ " + name)
 
+## Android (Termux)
+
+```bash
+# Install
+curl -L -o sinlag https://github.com/Kgpsk/sinlag/releases/download/v1.0/sinlag_arm64
+chmod +x sinlag
+mv sinlag $PREFIX/bin/
+
+# Test
+sinlag hello.සිං
 
 
 අනාගත සැලසුම් | Future Plans

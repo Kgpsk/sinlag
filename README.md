@@ -72,7 +72,7 @@ chmod +x sinlag
 # Install globally
 sudo mv sinlag /usr/local/bin/
 
-###ඇන්ඩ්‍රොයිඩ් ටර්මක්ස් (Android Termux)
+### ඇන්ඩ්‍රොයිඩ් ටර්මක්ස් (Android Termux)
 
 # Download the ARM64 executable
 curl -L -o sinlag https://github.com/Kgpsk/sinlag/releases/download/v1.0/sinlag_arm64

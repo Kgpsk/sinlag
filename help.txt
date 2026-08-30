@@ -1,0 +1,88 @@
+═══════════════════════════════════════════════════════════════
+                    sinlag - සිංහල ක්‍රමලේඛන භාෂාව
+                    Sinhala Programming Language
+═══════════════════════════════════════════════════════════════
+
+📌 විධාන | Commands
+───────────────────────────────────────────────────────────────
+  sinlag <filename.සිං>     Run a Sinhala script
+  sinlag --help             Show this help message
+  sinlag --version          Show version information
+
+📌 උදාහරණ | Example
+───────────────────────────────────────────────────────────────
+  sinlag hello.සිං
+
+📌 මූලික වාක්‍ය රටා | Basic Syntax
+───────────────────────────────────────────────────────────────
+  වෙනස්වන name = "value"      Variable declaration
+  පෙන්වන්න("text")             Print to console
+  නම් (condition) { }          If statement
+  එසේනම් { }                   Else statement
+  තුරු (condition) { }         While loop
+  සඳහා (i = 1, 10) { }        For loop
+  කාර්යය name() { }            Function definition
+  නැවත value                   Return value
+  // comment                   Single line comment
+
+📌 ගණිත ශ්‍රිත | Math Functions
+───────────────────────────────────────────────────────────────
+  බලය(base, exp)               Power
+  වර්ගමූලය(value)              Square root
+  අනිවා(value)                  Absolute value
+  රවුම්(value)                  Round
+  කුඩාම(a, b, c)                Minimum
+  විශාලම(a, b, c)               Maximum
+  අහඹු(min, max)               Random number
+
+📌 තන්තු ශ්‍රිත | String Functions
+───────────────────────────────────────────────────────────────
+  දිග(text)                     Length of string
+  විශාල(text)                   Uppercase
+  කුඩා(text)                    Lowercase
+  කොටස(text, start, end)       Substring
+  ඉවත්කරන්න(text)               Trim whitespace
+  බෙදන්න(text, delimiter)       Split string
+  එකතුව(list, delimiter)        Join list
+
+📌 ගොනු මෙහෙයුම් | File Operations
+───────────────────────────────────────────────────────────────
+  කියවන්න("filename")           Read file
+  ලියන්න("filename", "content") Write file
+  මකන්න("filename")             Delete file
+
+📌 පද්ධති විධාන | System Commands
+───────────────────────────────────────────────────────────────
+  විධානය("command")             Execute system command
+
+📌 ජාල | Network
+───────────────────────────────────────────────────────────────
+  වෙබ්("url")                   Web request
+
+📌 පරිසරය | Environment
+───────────────────────────────────────────────────────────────
+  පරි("VARIABLE")               Environment variable
+
+📌 වෙනත් | Other
+───────────────────────────────────────────────────────────────
+  ඇතුලත්("prompt")              User input
+  ඇති(seconds)                  Sleep/Delay
+  ලැයිස්තුව = [1, 2, 3]        Array/List
+  ඔසප්(list, element)           Append to list
+  ඉවත්(list, index)             Remove from list
+
+📌 දෝෂ පණිවිඩ | Error Messages
+───────────────────────────────────────────────────────────────
+  'x' හඳුනාගත නොහැක          Variable not defined
+  ව්‍යාකරණ දෝෂයකි              Syntax error
+  ගොනුව හමු නොවීය              File not found
+
+📌 වැඩි විස්තර | More Info
+───────────────────────────────────────────────────────────────
+  GitHub: https://github.com/Kgpsk/sinlag
+  Email: kgpskushansameera@gmail.com
+
+═══════════════════════════════════════════════════════════════
+        ශ්‍රී ලංකාවේ මිනිසුන්ට! To the people of Sri Lanka!
+        අපි සිංහලෙන් කේත ලියමු! Let's code in Sinhala!
+═══════════════════════════════════════════════════════════════

@@ -64,6 +64,24 @@ chmod +x sinlag
 # Install globally
 sudo mv sinlag /usr/local/bin/
 
+## 📱 Android (Termux)
+
+### Installation via Git (Recommended)
+
+# 1. Update packages
+pkg update -y && pkg upgrade -y
+
+# 2. curl -L -o sinlag https://github.com/Kgpsk/sinlag/releases/download/v1.0/sinlag_android_arm64
+
+Make it executable
+chmod +x sinlag
+
+# 3. Install globally
+mv sinlag $PREFIX/bin/
+
+# 4. Test
+sinlag hello.සිංa
+
 
 # භාවිතය | Usage
 
@@ -150,6 +168,7 @@ sinhala
 
 වෙනස්වන ip = වෙබ්("https://api.ipify.org")
 පෙන්වන්න("Your IP: " + ip)
+'''bash
 
 # අනාගත සැලසුම් | Future Plans
 

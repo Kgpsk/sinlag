@@ -63,10 +63,10 @@ This project is a dream I had - **a language where you can write code in pure Si
 
 ### උබුන්ටු / ඩෙබියන් (Ubuntu / Debian)
 
-** Download the executable **
+** Download the executable
 wget https://github.com/Kgpsk/sinlag/releases/download/v1.0/sinlag
 
-** Make it executable **
+** Make it executable
 chmod +x sinlag
 
 ** Install globally **

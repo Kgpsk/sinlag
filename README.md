@@ -1,6 +1,14 @@
 # sinlag - සිංහල ක්‍රමලේඛන භාෂාව
 ## Sinhala Programming Language
 
+## 🌐 Online IDE
+
+Try sinlag directly in your browser without any installation!
+
+👉 **[sinlag Online IDE](http://kgpsksameera.pythonanywhere.com/)**
+
+![sinlag IDE Screenshot](https://github.com/Kgpsk/sinlag/blob/main/sinlagIDE.png)
+
 ---
 
 ## හැඳින්වීම | Introduction

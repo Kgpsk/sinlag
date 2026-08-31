@@ -64,9 +64,9 @@ chmod +x sinlag
 # Install globally
 sudo mv sinlag /usr/local/bin/
 
-## 📱 Android (Termux)
+### 📱 Android (Termux)
 
-### Installation via Git (Recommended)
+# Installation via Git (Recommended)
 
 # 1. Update packages
 pkg update -y && pkg upgrade -y
@@ -96,7 +96,7 @@ Create hello.සිං:
 පෙන්වන්න("හෙලෝ " + name)
 
 *Run:*
-bash
+'''bash
 
 sinlag hello.සිං
 
@@ -211,7 +211,7 @@ sinhala
 MIT License - නිදහසේ භාවිතා කරන්න, වෙනස් කරන්න, බෙදාගන්න!
 
 
-## ස්තුතියි! | Thank You!
+### ස්තුතියි! | Thank You!
 
 *ශ්‍රී ලංකාවේ මිනිසුන්ට...
 *To the people of Sri Lanka...
